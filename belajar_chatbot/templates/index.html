@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot Kalkulator Bibi</title>
+  <script src="/static/script.js" defer></script>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; background-color: pink;}
+    #chat-box { background-color: white; border: 3px solid maroon; padding: 10px; height: 200px; overflow-y: auto; border-radius: 15px; margin: 10px; }
+    .msg { margin: 5px 0; }
+    .bot { color: maroon; }
+    .user { color: black; }
+  </style>
+</head>
+<body>
+  <h3>Haii selamat datang di chatbot bibi ^.^ yuk mulai!!</h3>
+  <h5>Masukkan pertanyaan kamu disini dan aku akan bantu jawabb</h5>
+  <div id="chat-box"></div>
+  <input type="text" id="user-input" placeholder="Masukkan perhitungan disini yaa" />
+  <button onclick="sendMessage()">Kirim dulu</button>
+</body>
+</html>
